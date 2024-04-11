@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <TextView
+
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="1"
+            android:id="@+id/testviuds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tenbaihatds"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/testviuds"
+            android:textStyle="bold"
+            android:ellipsize="end"
+            android:maxWidth="250dp"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="noi ay con tim ve "
+            android:textSize="22sp" />
+        <TextView
+            android:id="@+id/tencsds"
+            android:layout_below="@+id/tenbaihatds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/testviuds"
+            android:layout_marginLeft="15dp"
+            android:text="son tung"
+            android:textSize="17sp"
+            android:paddingBottom="10dp"
+
+            />
+        <ImageView
+             android:id="@+id/imagetim"
+            android:scaleType="fitXY"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/timtrang"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

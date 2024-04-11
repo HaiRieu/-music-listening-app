@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/relichude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dp">
+
+        <TextView
+            android:id="@+id/textviucdtl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHỦ ĐỀ VÀ THỂ LOẠI "
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+        android:id="@+id/textviuxemthem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Xem Thêm"
+        android:layout_alignParentRight="true"
+        android:textColor="#228B22"
+        android:layout_marginRight="15dp"></TextView>
+
+
+    </RelativeLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/honticalview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relichude"
+        android:scrollbars="none"></HorizontalScrollView>
+
+</RelativeLayout>
